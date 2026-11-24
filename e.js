@@ -2,4 +2,8 @@ function multiply(a, b) {
   return a * b;
 }
 
-module.exports = { multiply };
+function subtract(a, b) {
+  return a - b;
+}
+
+module.exports = { multiply, subtract };
